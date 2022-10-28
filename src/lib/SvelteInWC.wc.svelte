@@ -4,12 +4,13 @@
   import Child from "./Child.svelte";
 </script>
 
-<button>
+<span>
   <Child>svelte in wc all in one</Child>
-</button>
+</span>
 
 <style>
-  button {
+  span {
     background-color: blue;
+    padding: 4px;
   }
 </style>

@@ -1,9 +1,10 @@
-<button>
+<span>
   <slot />
-</button>
+</span>
 
 <style>
-  button {
+  span {
     background-color: blue;
+    padding: 4px;
   }
 </style>
